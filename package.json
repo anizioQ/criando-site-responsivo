@@ -1,0 +1,11 @@
+{
+  "name": "_Site_Portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:anizioQ/criando-site-responsivo.git",
+  "author": "anizioQ <anizioq@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
