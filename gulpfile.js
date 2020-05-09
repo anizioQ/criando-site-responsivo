@@ -11,9 +11,8 @@ gulp.task('sass', function(){
 
 // task para o watch
 gulp.task('watch', function(){
-    gulp.watch('scss/**/*.scss', ['sass']);
+    gulp.watch('scss/**/*.scss', gulp.series('sass'));
 });
 
 // task default gulp
-gulp.task('default', async function() {
-});
+gulp.task('default', gulp.series('watch'));
