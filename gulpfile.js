@@ -5,7 +5,7 @@ var watch = require('gulp-watch');
 // task para o sass
 gulp.task('sass', function(){
     return gulp.src('scss/**/*.scss')
-        .pipe(sass()) // Using gulp-sass
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError)) // Using gulp-sass
         .pipe(gulp.dest('css'))
 });
 
@@ -15,4 +15,4 @@ gulp.task('watch', function(){
 });
 
 // task default gulp
-gulp.task('default', gulp.series('watch'));
+gulp.task('default', gulp.series('sass', 'watch'));
