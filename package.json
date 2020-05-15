@@ -1,0 +1,20 @@
+{
+  "name": "_Site_Portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:anizioQ/criando-site-responsivo.git",
+  "author": "anizioQ <anizioq@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-sass": "^3.4.1",
+    "breakpoint-sass": "^2.7.1"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-watch": "^5.0.1"
+  }
+}
