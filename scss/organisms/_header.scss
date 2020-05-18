@@ -1,26 +1,23 @@
 header {
-    .logo {
+    background: url('/img/home-background.jpg');
+    +clearfix .logo {
         float: left;
+        width: 300px;
+        height: 79px;
     }
     .links {
         float: right;
-         nav {
-             ul {
-                 li {
-                     a {
-
-                     }
-                 }
-             }
-             .social {
-
-             }
-         }
-    h1 {
-
-    p {
-
-    }
-    }
+        nav {
+            ul {
+                li {
+                    display: inline-block;
+                    a {
+                        // color: $branco;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        /* .social {} */
     }
 }
