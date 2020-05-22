@@ -1,6 +1,13 @@
+
 header {
-    background: url('/img/home-background.jpg');
-    /* +clearfix */
+    @include clearfix;
+    min-height: 348px;
+    background-image: url('/img/home-background.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    size: cover;
+    
     .logo {
         float: left;
         img {
@@ -10,18 +17,28 @@ header {
     }
     .links {
         float: right;
-
+        
         nav, .social {
             display: inline-block;
+            
         }
         nav {
             ul {
                 li {
                     display: inline-block;
                     margin: 0px 20px 0px 0px;
+
                     a {
                         
                         text-transform: uppercase;
+                        text-decoration-line: none;
+                        font-weight: 600;
+                        color: $branco;
+                        @include transition(.4s);
+                            &:hover, &:focus {
+                            color: $laranja;
+                        }
+                        
                     }
                 }
             }
@@ -34,4 +51,9 @@ header {
             }
         }
     }
+}
+
+h1, p {
+    clear: both;
+    color: $branco;
 }

@@ -1,7 +1,16 @@
 @import '../molecules/mixins';
-@import '../plugins.scss';
+
 
 body {
-    font-family: 'Opens Sans', sans serif;
+    font-family: 'Open Sans', sans serif;
     font-size: 16px;
+    line-height: 1;
 } 
+
+/* a {
+    @include transition(.5s);
+    &:hover, &:focus {
+        text-decoration: none;
+        color: $laranja;
+      }
+} */
