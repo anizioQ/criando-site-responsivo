@@ -1,6 +1,8 @@
 
+
+
 header {
-    @include clearfix;
+    /* @include clearfix; */
     min-height: 350px;
     background-image: url('/img/home-background.jpg');
     background-position: top center;
@@ -8,8 +10,13 @@ header {
     background-attachment: fixed;
     background-size: 100%;
 
+    .container {
+        margin: 0 120px 0 120px;
+    }
+
     .logo {
         float: left;
+        margin: 30px 0 0 30px;
         img {
             width: 300px;
             height: 79px;
@@ -17,6 +24,8 @@ header {
     }
     .links {
         float: right;
+        margin: 52px 30px 0 0px;
+        font-size: 14px;
 
         nav, .social {
             display: inline-block;
@@ -24,9 +33,10 @@ header {
         }
         nav {
             ul {
+                margin: 0 20px 0 0;
                 li {
                     display: inline-block;
-                    margin: 0px 20px 0px 0px;
+                    margin: 0 0 0 20px;
 
                     a {
 
@@ -46,14 +56,23 @@ header {
         .social {
             li {
                 display: inline-block;
-                margin: 0px 20px 0px 0px;
+                font-size: 18px;
+                margin: 0 0 0 10px;
                 color: $branco;
             }
         }
     }
+
+    h1 {
+        clear: both;
+        /* margin: 100px 0 0 0; */
+    }
+
+    h1, p {
+        color: $branco;
+        text-align: center;
+    }
+
 }
 
-h1, p {
-    clear: both;
-    color: $branco;
-}
+
