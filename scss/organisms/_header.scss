@@ -1,13 +1,13 @@
 
 header {
     @include clearfix;
-    min-height: 348px;
+    min-height: 350px;
     background-image: url('/img/home-background.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    size: cover;
-    
+    background-size: 100%;
+
     .logo {
         float: left;
         img {
@@ -17,10 +17,10 @@ header {
     }
     .links {
         float: right;
-        
+
         nav, .social {
             display: inline-block;
-            
+
         }
         nav {
             ul {
@@ -29,7 +29,7 @@ header {
                     margin: 0px 20px 0px 0px;
 
                     a {
-                        
+
                         text-transform: uppercase;
                         text-decoration-line: none;
                         font-weight: 600;
@@ -38,7 +38,7 @@ header {
                             &:hover, &:focus {
                             color: $laranja;
                         }
-                        
+
                     }
                 }
             }
