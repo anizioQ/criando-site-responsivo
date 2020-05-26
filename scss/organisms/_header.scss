@@ -10,9 +10,9 @@ header {
     background-attachment: fixed;
     background-size: 100%;
 
-    .container {
+    /* .container {
         margin: 0 120px 0 120px;
-    }
+    } */
 
     .logo {
         float: left;
@@ -25,7 +25,6 @@ header {
     .links {
         float: right;
         margin: 52px 30px 0 0px;
-        font-size: 14px;
 
         nav, .social {
             display: inline-block;
@@ -33,16 +32,16 @@ header {
         }
         nav {
             ul {
-                margin: 0 20px 0 0;
                 li {
                     display: inline-block;
                     margin: 0 0 0 20px;
 
                     a {
 
-                        text-transform: uppercase;
+                        /* text-transform: uppercase; */
                         text-decoration-line: none;
-                        font-weight: 600;
+                        font-size: 14px;
+                        font-weight: 400;
                         color: $branco;
                         @include transition(.4s);
                             &:hover, &:focus {
@@ -56,16 +55,20 @@ header {
         .social {
             li {
                 display: inline-block;
-                font-size: 18px;
-                margin: 0 0 0 10px;
+                font-size: 20px;
+                margin: 0 0 0 20px;
                 color: $branco;
             }
         }
     }
 
+
     h1 {
-        clear: both;
-        /* margin: 100px 0 0 0; */
+        /* clear: both; */
+        display: inline-block;
+        width: 100%;
+        margin-top: 90px;
+        font-size: 45px;
     }
 
     h1, p {
@@ -73,6 +76,30 @@ header {
         text-align: center;
     }
 
+    span.trespontos {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+
+} footer {
+    p {
+        text-align: center;
+        font-size: 14px;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .logo-rodape {
+        img {
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: 35px auto 20px;
+        }
+    }
 }
 
 
