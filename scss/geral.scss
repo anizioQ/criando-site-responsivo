@@ -1,11 +1,19 @@
 @import 'molecules/reset';
 @import 'molecules/mixins';
-@import '../node_modules/bootstrap/scss/mixins';
-/* @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
-@import '../node_modules/breakpoint-sass/stylesheets/breakpoint'; */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-@import 'templates/home';
 
+/* @import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss'; */
+
+
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import '../node_modules/breakpoint-sass/stylesheets/breakpoint'; 
+
+@import 'templates/home';
 @import 'molecules/reset';
 @import 'organisms/header';
 @import 'organisms/footer';

@@ -11,12 +11,12 @@ header {
     background-size: 100%;
 
     /* .container {
-        margin: 0 120px 0 120px;
-    } */
-
+        max-width: 800px;
+    }
+ */
     .logo {
         float: left;
-        margin: 30px 0 0 30px;
+        margin: 30px 0;
         img {
             width: 300px;
             height: 79px;
@@ -24,7 +24,7 @@ header {
     }
     .links {
         float: right;
-        margin: 52px 30px 0 0px;
+        margin: 52px 0;
 
         nav, .social {
             display: inline-block;
@@ -85,21 +85,6 @@ header {
     }
     
 
-} footer {
-    p {
-        text-align: center;
-        font-size: 14px;
-        margin: 0px 0px 50px 0px;
-    }
-
-    .logo-rodape {
-        img {
-            width: 200px;
-            height: 200px;
-            display: block;
-            margin: 35px auto 20px;
-        }
-    }
-}
+} 
 
 
