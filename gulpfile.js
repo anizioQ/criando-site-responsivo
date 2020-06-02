@@ -10,10 +10,10 @@ gulp.task('sass', function() {
 });
 
 // mover JS para /js
-gulp.task('js', function() {
-    return gulp.src("/node_modules/jquery/dist/jquerpy.slim.min.js", "/node_modules/popper.js/dist/popper.min.js", "/node_modules/bootstrap/dist/js/bootstrap.min.js")
-        .pipe(gulp.dest('js'))
-
+/* gulp.task('js', function() {
+    return gulp.src("/node_modules/jquery/dist/jquery.min.js", "/node_modules/popper.js/dist/popper.min.js", "/node_modules/bootstrap/dist/js/bootstrap.min.js")
+            .pipe(gulp.dest('js'))
+}); */
 
 // escutar pastas com SCSS
 gulp.task('watch', function() {
