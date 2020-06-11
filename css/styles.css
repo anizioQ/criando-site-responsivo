@@ -1,0 +1,88 @@
+.sobre {
+  background: #006699; }
+
+/* ======== Cores */
+/* ======== Font */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+/* body {
+    font-family: 'Open Sans', sans serif !important; 
+    line-height: 1;
+} */
+header {
+  /* @include clearfix; */
+  min-height: 350px;
+  background-image: url("/img/home-background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  /* .container {
+        max-width: 800px;
+    }
+ */ }
+  header .logo {
+    float: left;
+    margin: 30px 0; }
+    header .logo img {
+      width: 300px;
+      height: 79px; }
+  header .links {
+    float: right;
+    margin: 52px 0; }
+    header .links nav, header .links .social {
+      display: inline-block; }
+    header .links nav ul li {
+      display: inline-block;
+      margin: 0 0 0 20px; }
+      header .links nav ul li a {
+        /* text-transform: uppercase; */
+        text-decoration-line: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        -moz-transition: all 0.4s linear;
+        -o-transition: all 0.4s linear;
+        -webkit-transition: all 0.4s linear;
+        transition: all 0.4s linear; }
+        header .links nav ul li a:hover, header .links nav ul li a:focus {
+          color: #EC6F30; }
+    header .links .social li {
+      display: inline-block;
+      font-size: 20px;
+      margin: 0 0 0 20px;
+      color: #fff; }
+  header h1 {
+    /* clear: both; */
+    display: inline-block;
+    width: 100%;
+    margin-top: 90px;
+    font-size: 45px; }
+  header h1, header p {
+    color: #fff;
+    text-align: center; }
+  header span.trespontos {
+    font-size: 14px; }
+  header p {
+    font-size: 14px; }
+
+footer p {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px 0px 50px 0px; }
+
+footer .logo-rodape img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 35px auto 20px; }
