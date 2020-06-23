@@ -11,9 +11,11 @@
     "bootstrap-sass": "^3.4.1",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.26.7",
+    "express": "^4.17.1",
     "jquery": "^3.5.1",
     "npm": "^6.14.5",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "tsparticles": "^1.16.0"
   },
   "devDependencies": {
     "gulp": "4.0.2",
